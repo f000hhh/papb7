@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.papb7"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:7:5-8:40
+13-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:9:22-77
+15
+16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:25:22-76
+19
+20    <application
+20-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:11:5-34:19
+21        android:allowBackup="true"
+21-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:12:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.8.0] C:\Users\Khalish\.gradle\caches\transforms-3\817b2fb9475b60d41f673b4294c05843\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:13:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:14:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:15:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:16:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.UploadPicsInFirebase" >
+30-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:17:9-58
+31
+32        <!-- <activity android:name="com.android.papb7.DownUpFiles"></activity> -->
+33        <activity
+33-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:19:9-25:20
+34            android:name="com.android.papb7.DownUpFiles"
+34-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:20:13-40
+35            android:exported="false" >
+35-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:21:13-37
+36            <meta-data
+36-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:22:13-24:36
+37                android:name="android.app.lib_name"
+37-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:23:17-52
+38                android:value="" />
+38-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:24:17-33
+39        </activity>
+40        <activity
+40-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:26:9-33:20
+41            android:name="com.android.papb7.MainActivity"
+41-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:26:19-64
+42            android:exported="true" >
+42-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:27:13-36
+43            <intent-filter>
+43-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:28:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:29:17-69
+44-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:31:17-77
+46-->C:\Users\Khalish\AndroidStudioProjects\papb7\app\src\main\AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:29:9-35:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:30:13-84
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:31:13-37
+54            <meta-data
+54-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+55                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+55-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\1f7bfcb50c0c9bbd0afb90b077db1eab\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\95e66246a282b780ad618c342439d3de\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+58                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+58-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\95e66246a282b780ad618c342439d3de\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\95e66246a282b780ad618c342439d3de\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+60        </service>
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Khalish\.gradle\caches\transforms-3\b8a443fbf55c841345f953d5bde1c5e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Khalish\.gradle\caches\transforms-3\b8a443fbf55c841345f953d5bde1c5e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Khalish\.gradle\caches\transforms-3\b8a443fbf55c841345f953d5bde1c5e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Khalish\.gradle\caches\transforms-3\b8a443fbf55c841345f953d5bde1c5e6\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+66
+67        <provider
+67-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+68            android:name="com.google.firebase.provider.FirebaseInitProvider"
+68-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+69            android:authorities="com.android.papb7.firebaseinitprovider"
+69-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+71            android:exported="false"
+71-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+72            android:initOrder="100" />
+72-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\71317564cbd0e07b7d832c9bf23b6cbd\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\fccc8d15030e9ddc4f04a1191f2ed191\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\fccc8d15030e9ddc4f04a1191f2ed191\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Khalish\.gradle\caches\transforms-3\fccc8d15030e9ddc4f04a1191f2ed191\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+80            android:authorities="com.android.papb7.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Khalish\.gradle\caches\transforms-3\dcb6a9e12784627ae45a583577e7e092\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Khalish\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Khalish\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Khalish\.gradle\caches\transforms-3\8508431b56924959a90c594cfba04620\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

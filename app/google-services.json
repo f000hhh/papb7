@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "23482717825",
+    "project_id": "papb7-29747",
+    "storage_bucket": "papb7-29747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23482717825:android:4cf1fda30b5353ecc31f80",
+        "android_client_info": {
+          "package_name": "com.android.papb7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23482717825-gvsdtu591uihub1h0q1i0109e662bdfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGc4bnqXgynXI1-sTFnmcfWONWc4wDitY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23482717825-gvsdtu591uihub1h0q1i0109e662bdfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23482717825:android:4ac78baa63835dcac31f80",
+        "android_client_info": {
+          "package_name": "com.android.uploadpicsinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23482717825-gvsdtu591uihub1h0q1i0109e662bdfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGc4bnqXgynXI1-sTFnmcfWONWc4wDitY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23482717825-gvsdtu591uihub1h0q1i0109e662bdfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

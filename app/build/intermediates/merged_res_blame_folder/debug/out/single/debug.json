@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.android.papb7.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.android.papb7.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.android.papb7.app-merged_res-35:/layout_activity_downupfiles.xml.flat",
+        "source": "com.android.papb7.app-main-37:/layout/activity_downupfiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\layout_activity_download_uploaded_images.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\layout\\activity_download_uploaded_images.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\layout_recycler_row.xml.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\layout\\recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Khalish\\.gradle\\daemon\\7.4\\com.android.papb7.app-main-37:\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]
